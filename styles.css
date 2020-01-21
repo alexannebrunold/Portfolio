@@ -1,7 +1,7 @@
 *{
   margin: 0;
   padding: 0;
- 
+ width: 320px;
 }
 
 /* Home */
@@ -19,7 +19,7 @@
 
   .home__logo{
     float: right;
-    font-size: 12px;
+    font-size: 16px;
     color: #FFFFFF;
     margin-right: 15px;
     margin-top: 4px;
@@ -27,9 +27,9 @@
 
   .home__welcome{
     position: absolute;
-    font-size: 10px;
+    font-size: 14px;
     color: #FFFFFF;
-    width: 69px;
+    width: 85px;
     margin-left: 15px;
     margin-top: 125px;
   }
@@ -38,21 +38,22 @@
 
 .projects__Disney{
   background-color: #020202;
-  height: 400px;
+  height: 315px;
+  border: solid 2px #556798;
 }
   .projects__title{
-    font-size: 15px;
+    font-size: 14px;
     color: #FFFFFF;
     text-align: center;
     padding-top:6px;
   }
 .projects__description__Disney{
-  font-size: 6px;
+  font-size: 12px;
   color: #FFFFFF;
-  width: 180px;
+  width: 200px;
   height: 47px;
   text-align: center;
-  margin-left: 70px;
+  margin-left: 60px;
   padding-top:10px;
 }
 
@@ -62,15 +63,86 @@
   align-items: center;
   align-content: center;
   justify-content: space-around;
-  margin-left: 115px;
-  width: 82px;
+  margin-left: 90px;
+  width: 150px;
   height: auto;
+  margin-top: 15px;
+   margin-left: auto;
+  margin-right: auto;
 }
 
 .img__Disney__2{
-  width: 82px;
+  width: 150px;
   height: auto;
-  margin-left: 115px;
+  margin-top: 15px;
+  margin-left: 85px;
+}
+
+/* Redesign */
+
+.redesign{
+  background-color: #020202;
+  height: 325px;
+  border: 2px solid rgb(145, 11, 11);
+}
+
+.redesign__descrption__Nespresso{
+  font-size: 12px;
+  color: #FFFFFF;
+  width: 250px;
+  height: 47px;
+  text-align: center;
+  padding-top:15px;
+  padding-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img__redesign{
+  height: auto;
+  width:150px;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+.square{
+  width: 132px;
+  height: 150px;
+  border: 2px solid #FFFFFF;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
+
+/* Cyber-Run */
+
+.cyberrun{
+  background-color: #020202;
+  height: 365px;
+  border:2px solid #75687A;
+}
+
+.cyberrun__description{
+  font-size: 12px;
+  color: red;
+  width: 200px;
+  height: 47px;
+  text-align: center;
+  margin-left: 60px;
+  padding-top:10px;
+}
+
+.img__Cyber-Run__1{
+  width: 206px;
+  height: auto;
+margin-left: 55px;
+margin-top: 15px;
+}
+
+.img__Cyber-Run__2{
+  width: 205px;
+  height: auto;
+  margin-left: 55px;
   margin-top: 15px;
 }
 
